@@ -8,7 +8,7 @@ void Solicitar_datos();
 void matarasakura();
 
 int  main() {
-
+	//La puta madre march
 	Solicitar_datos();
 
 	system("pause");
