@@ -1,16 +1,28 @@
 #include<stdio.h>
 #include<math.h>
+#include<iostream>
 
-void calculo();
+int variable[3];
+void Solicitar_datos();
 
 void matarasakura();
 
-void main() {
+int  main() {
 
+	Solicitar_datos();
 
+	system("pause");
+	return 0;
 }
 
 
-void calculo() {}
+void Solicitar_datos() {
 
-void matarasakura() {}
+	int M = 0;//M numero de matrces 
+	std::cout << "Sistema de solucion de metodo de Gauss Seidel\n";
+
+	std::cout << "Ingresa la cantida de matrices \n";
+	std::cin >> M;
+}
+
+void matarasakura() {}) {}
